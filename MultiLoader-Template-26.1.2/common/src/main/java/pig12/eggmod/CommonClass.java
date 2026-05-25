@@ -1,8 +1,9 @@
 package pig12.eggmod;
 
-import pig12.eggmod.platform.Services;
+import pig12.eggmod.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
+import pig12.eggmod.init.ModItems;
 
 // This class is part of the common project meaning it is shared between all supported loaders. Code written here can only
 // import and access the vanilla codebase, libraries used by vanilla, and optionally third party libraries that provide
@@ -25,7 +26,9 @@ public class CommonClass {
         // the platform specific approach.
         if (Services.PLATFORM.isModLoaded("eggmod")) {
 
-            Constants.LOG.info("Hello to eggemod");
+            Constants.LOG.info("Hello to eggmod");
         }
+
+        ModItems.load();
     }
 }

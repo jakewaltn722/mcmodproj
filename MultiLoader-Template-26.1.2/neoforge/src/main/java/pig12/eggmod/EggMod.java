@@ -3,6 +3,7 @@ package pig12.eggmod;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import pig12.eggmod.services.NeoForgeRegistryHelper;
 
 @Mod(Constants.MOD_ID)
 public class EggMod {
@@ -16,6 +17,6 @@ public class EggMod {
         // Use NeoForge to bootstrap the Common mod.
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
-
+        NeoForgeRegistryHelper.register(eventBus);
     }
 }

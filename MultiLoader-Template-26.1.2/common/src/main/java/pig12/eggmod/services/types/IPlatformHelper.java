@@ -1,4 +1,4 @@
-package pig12.eggmod.platform.services;
+package pig12.eggmod.services.types;
 
 public interface IPlatformHelper {
 

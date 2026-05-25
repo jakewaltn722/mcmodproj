@@ -1,6 +1,6 @@
-package pig12.eggmod.platform;
+package pig12.eggmod.services;
 
-import pig12.eggmod.platform.services.IPlatformHelper;
+import pig12.eggmod.services.types.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 

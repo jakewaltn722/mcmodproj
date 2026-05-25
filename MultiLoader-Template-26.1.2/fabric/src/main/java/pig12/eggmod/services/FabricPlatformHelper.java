@@ -1,6 +1,6 @@
-package pig12.eggmod.platform;
+package pig12.eggmod.services;
 
-import pig12.eggmod.platform.services.IPlatformHelper;
+import pig12.eggmod.services.types.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
